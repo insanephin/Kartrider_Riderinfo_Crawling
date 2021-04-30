@@ -1,4 +1,4 @@
-# Kartrider_Web_Crawling
+# Kartrider_Crawling (Garage)
 
 ### [카트라이더 공식웹 차고 페이지](https://kart.nexon.com/Garage/Main?strRiderID=InsanePhin) 크롤링
 
