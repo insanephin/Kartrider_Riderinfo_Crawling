@@ -19,9 +19,43 @@
 
 1. 라이더명 입력
 2. 카트라이더 공식 api를 통해 정확한 라이더명 get
-3. https://kart.nexon.com/Garage/(Main/Record/Item/Emblem)?strRiderID=라이더명 크롤링
+3. `https://kart.nexon.com/Garage/(Main/Record/Item/Emblem)?strRiderID=라이더명` 크롤링
 
 ### 출력 예시
+
+```sh
+$ python garage.py
+라이더명을 입력해주세요 : insanephin
+
+라이더명 - InsanePhin
+클럽명 - Elyou
+TMI 바로가기 - https://tmi.nexon.com/kart/user?nick=InsanePhin
+라이더생성일 - 2017-03-01 (1520일 동안)
+총 주행시간 - 44286분
+마지막 접속일 - 2021-04-30
+종합승률 - 43%
+스피드전승률 - 36%
+아이템전승률 - 37%
+레벨이미지(글러브) - https://ssl.nx.com/s2/game/kart/kart/hands/hand_106_23.gif
+라이더이미지 - https://avatarimg.kart.nexon.com/2019/525/058/1695058525.png
+```
+
+```sh
+$ python record.py
+라이더명을 입력해주세요 : insanephin
+
+라이더명 - InsanePhin(http://kart.nexon.com/Garage/Main?strRiderID=InsanePhin)
+랭킹타임어택 - 타임어택 최고기록이 없습니다.지금 신기록에 도전해보세요~(https://ssl.nx.com/S2/game/kart/Camp/image/profile_kart/img_track_none.gif)
+그랑프리 - 쏘나타 N 라인 그랑프리
+점수 - 1558점
+랭킹 - 22505위
+그랑프리 - 2020 카트라이더 리그 시즌 2 스피드 개인전
+점수 - 1482점
+랭킹 - 22819위
+그랑프리 - 스피드 개인전 그랑프리 (매우빠름)
+점수 - 1435점
+랭킹 - 67219위
+```
 
 ```sh
 $ python garage.py

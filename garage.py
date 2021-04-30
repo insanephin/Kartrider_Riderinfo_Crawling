@@ -47,7 +47,7 @@ laslog = re.sub('<.+?>', '', laslog, 0).strip()
 gloveimg = str(soup.find('div', {'id': 'GloveImg'}).img['src'])
 riderimg = str(soup.find('span', {'id': 'RiderImg'}).img['src'])
 
-print("\n라이더명 - "+name)
+print("\n라이더명 - "+name+f'(http://kart.nexon.com/Garage/Main?strRiderID={name})')
 print("클럽명 - "+guild)
 print(f"TMI 바로가기 - https://tmi.nexon.com/kart/user?nick={name}")
 print("라이더생성일 - "+stkart)
