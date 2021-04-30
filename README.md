@@ -20,10 +20,35 @@
 2. 카트라이더 공식 api를 통해 정확한 라이더명 get
 3. `https://kart.nexon.com/Garage/(Main/Record/Item/Emblem)?strRiderID=라이더명` 크롤링
 
+### 테스트환경
+
+```
+Python 3.8.9 64-bit ("WindowsApps")
+
+pip==21.1
+requests==2.24.0
+bs4==0.0.1
+```
+
+### 사용법
+
+```
+$ pip install -r requirements.txt
+$ python garage.py
+
+or
+
+$ python record.py
+
+or
+
+$ python item.py
+```
+
 ### 출력 예시
 
 #### 차고홈
-```sh
+```
 $ python garage.py
 라이더명을 입력해주세요 : insanephin
 
@@ -41,7 +66,7 @@ TMI 바로가기 - https://tmi.nexon.com/kart/user?nick=InsanePhin
 ```
 
 #### 기록실
-```sh
+```
 $ python record.py
 라이더명을 입력해주세요 : insanephin
 
@@ -59,7 +84,7 @@ $ python record.py
 ```
 
 #### 아이템
-```sh
+```
 $ python item.py
 라이더명을 입력해주세요 : insanephin
 
