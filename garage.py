@@ -13,7 +13,7 @@ result = req.json()
 try:
     nickname = result['name']
 except KeyError:
-    print("존재하지 않는 닉네임입니다.")
+    print("존재하지 않는 라이더명입니다.")
     exit
 
 response = requests.get(f'http://kart.nexon.com/Garage/Main?strRiderID={nickname}')

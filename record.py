@@ -13,7 +13,7 @@ result = req.json()
 try:
     nickname = result['name']
 except KeyError:
-    print("존재하지 않는 닉네임입니다.")
+    print("존재하지 않는 라이더명입니다.")
     exit
 
 response = requests.get(f'http://kart.nexon.com/Garage/Main?strRiderID={nickname}')
@@ -25,7 +25,7 @@ soup2 = BeautifulSoup(response2.text, 'html.parser')
 name = str(soup.find_all('span', {'id':'RiderName'})[0])
 name = re.sub(r'<[^>]+>', '', name, 0).strip()
 
-print("\n라이더명 - "+name+f'(http://kart.nexon.com/Garage/Main?strRiderID={name})')
+print("\n라이더명 - "+name+f'(http://kart.nexon.com/Garage/Record?strRiderID={name})')
 
 try:
     map1 = str(soup.find('div', {'id':'RecordTime'}).img['alt'])

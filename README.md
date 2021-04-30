@@ -60,18 +60,17 @@ $ python record.py
 
 #### 아이템
 ```sh
-$ python garage.py
+$ python item.py
 라이더명을 입력해주세요 : insanephin
 
-라이더명 - InsanePhin
-클럽명 - Elyou
-TMI 바로가기 - https://tmi.nexon.com/kart/user?nick=InsanePhin
-라이더생성일 - 2017-03-01 (1520일 동안)
-총 주행시간 - 44286분
-마지막 접속일 - 2021-04-30
-종합승률 - 43%
-스피드전승률 - 36%
-아이템전승률 - 37%
-레벨이미지(글러브) - https://ssl.nx.com/s2/game/kart/kart/hands/hand_106_23.gif
-라이더이미지 - https://avatarimg.kart.nexon.com/2019/525/058/1695058525.png
+라이더명 - InsanePhin(http://kart.nexon.com/Garage/Item?strRiderID=InsanePhin)
+총 아이템개수 - 1869개
+캐릭터 - 184개
+카트바디 - 541개
+착용아이템 - 626개
+치장아이템 - 82개
+기타아이템 - 436개
+엠블럼 - 40개
+메인아이템 - 디지니/루시드 X-MAS/머구리 군단병 C
+메인아이템이미지(1번)https://ssl.nx.com/s2/game/kart/kart2006/image/item2/rVWerFqhzj1_3.gif
 ```
