@@ -22,6 +22,7 @@
 
 ### 출력 예시
 
+#### 차고홈
 ```sh
 $ python garage.py
 라이더명을 입력해주세요 : insanephin
@@ -39,6 +40,7 @@ TMI 바로가기 - https://tmi.nexon.com/kart/user?nick=InsanePhin
 라이더이미지 - https://avatarimg.kart.nexon.com/2019/525/058/1695058525.png
 ```
 
+#### 기록실
 ```sh
 $ python record.py
 라이더명을 입력해주세요 : insanephin
@@ -56,6 +58,7 @@ $ python record.py
 랭킹 - 67219위
 ```
 
+#### 아이템
 ```sh
 $ python garage.py
 라이더명을 입력해주세요 : insanephin
