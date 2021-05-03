@@ -35,14 +35,6 @@ bs4==0.0.1
 ```
 $ pip install -r requirements.txt
 $ python garage.py
-
-or
-
-$ python record.py
-
-or
-
-$ python item.py
 ```
 
 ### 출력 예시
