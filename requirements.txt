@@ -1,3 +1,4 @@
+pip
 requests
 re
 bs4
